@@ -1,5 +1,19 @@
 {
-  "github": {
-    "silent": true
-  }
+
+  "builds": [
+
+    {
+
+      "src": "package.json",
+
+      "use": "@vercel/static-build",
+
+      "config": { "distDir": "dist" }
+
+    }
+
+  ],
+
+  "cleanUrls": true
+
 }
